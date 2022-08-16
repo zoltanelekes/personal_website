@@ -1,0 +1,33 @@
+---
+title: "Personal Website"
+output:
+  html_document:
+    css: "03_scripts/assets/style.css"
+    df_print: paged
+    number_sections: TRUE
+    toc: TRUE
+    toc_float: TRUE
+    toc_depth: 6
+---
+
+# **SETUP**
+
+```{r}
+library(blogdown)
+```
+
+
+
+
+
+# **DATAWORK**
+
+
+
+
+
+# **WEBSITE**
+
+```{r}
+new_site(dir = "../04_output/website", theme = "wowchemy/starter-academic")
+```

@@ -1,0 +1,16 @@
+---
+title: "Notes on Personal Website"
+output:
+  html_document:
+    css: "03_scripts/assets/style.css"
+    df_print: paged
+    number_sections: TRUE
+    toc: TRUE
+    toc_float: TRUE
+    toc_depth: 6
+---
+
+# 220811 - sources
+
+* https://shilaan.rbind.io/post/building-your-website-using-r-blogdown/ # main source
+* https://happygitwithr.com/https-pat.html # currently under use to set up GitHub connection
